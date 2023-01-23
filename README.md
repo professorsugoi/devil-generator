@@ -1,2 +1,2 @@
 # devil-generator
-sugoi learns to code
+template used: https://github.com/bardIRL/npc-generator
