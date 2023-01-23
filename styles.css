@@ -88,22 +88,29 @@ h3 {
   height: 56em;
 }
 
+#deviljpeg {
+  border-radius: 8px;
+  width: 30vh;
+  height: 30vh;
+  align-items: center;
+}
+
 .about {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: left;
+  justify-content: space-between;
 }
 
 .ability-personality {
-  display: flex;
+  display: flexbox;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 2em;
   gap: 1em;
 }
 
-.beliefs-alignment {
+.morals-alignment {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -118,7 +125,7 @@ h3 {
 button.btn {
   border: 0;
   border-radius: 8px;
-  background: linear-gradient(to right, #eb5e28, #f0433d);
+  background: linear-gradient(to right, #8545f5, #f0433d); /*purple*/
   font-size: 0.9rem;
   transition-duration: 0.5s;
   cursor: pointer;
@@ -126,7 +133,7 @@ button.btn {
 }
 
 button.btn:hover {
-  background: linear-gradient(to right, #db5520, #df4a30);
+  background: linear-gradient(to right, #5220db, #c230df);
 }
 
 /* button generate */
@@ -145,16 +152,16 @@ button.randomize {
 button.align {
   width: 30%;
   height: 40%;
-  background: #eb5e28;
+  background: #8545f5; /*purple*/
 }
 
 button.align:focus {
-  background: #b93500;
+  background: #5220db;
   border: 1px solid white;
 }
 
 button.align:hover {
-  background: #b93500;
+  background: #5220db;
   width: 32%;
   height: 40%;
 }
@@ -173,7 +180,7 @@ button.align:hover {
 
 .labels {
   font-weight: 600;
-  color: #eb5e28;
+  color: #b06fff; /*purple*/
   letter-spacing: 0.1rem;
 }
 
@@ -214,7 +221,7 @@ span {
 .ability-scores-column p {
   font-weight: 800;
   font-size: 1.2rem;
-  color: #ff986f;
+  color: #b06fff;  /*purple*/
   line-height: 0.2rem;
   letter-spacing: 0.1rem;
 }
@@ -240,13 +247,13 @@ span {
 
 #alignment {
   padding-top: 3em;
-  color: #ff986f;
+  color: #b06fff; /*purple*/
   font-size: 1.3rem;
   letter-spacing: 0.3rem;
 }
 
 /* scroll bar */
-.beliefs {
+.morals {
   overflow-y: scroll;
   overflow-x: hidden;
   height: 95%;
@@ -258,11 +265,11 @@ span {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #888;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #f1f1f1;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -279,13 +286,8 @@ span {
 }
 
 a {
-  color: #eb5e28;
+  color: #8545f5; /*purple*/
   text-decoration: none;
-}
-
-#returnToTop {
-  display: none;
-  margin: 0 auto;
 }
 
 /* animation */
@@ -336,22 +338,6 @@ a {
 
   #alignment {
     padding-top: 3.5em;
-  }
-
-  #returnToTop {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 35%;
-    height: 3em;
-    border: 2px solid #a1a1a1;
-    background: none;
-    margin-bottom: 1em;
-    margin-top: 0.2em;
-  }
-
-  #returnToTop:hover {
-    border: 2px solid #fa5b33;
   }
 }
 

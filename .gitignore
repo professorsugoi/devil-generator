@@ -1,0 +1,7 @@
+# Untracked files:
+.vscode/
+/node_modules
+/packages
+# ignore lint
+.eslintrc.js
+CNAME
