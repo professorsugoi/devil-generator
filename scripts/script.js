@@ -389,7 +389,6 @@ function getRandommoralLG() {
 function setmoralsLG() {
 	document.getElementById('firstmoral').innerText = getRandommoralLG();
 	document.getElementById('secondmoral').innerText = getRandommoralLG();
-	document.getElementById('thirdmoral').innerText = getRandommoralLG();
 	document.getElementById('alignment').innerText = 'Lawful Good';
 }
 
@@ -401,7 +400,6 @@ function getRandommoralLN() {
 function setmoralsLN() {
 	document.getElementById('firstmoral').innerText = getRandommoralLN();
 	document.getElementById('secondmoral').innerText = getRandommoralLN();
-	document.getElementById('thirdmoral').innerText = getRandommoralLN();
 	document.getElementById('alignment').innerText = 'Lawful Neutral';
 }
 
@@ -415,7 +413,6 @@ function getRandommoralLE() {
 function setmoralsLE() {
 	document.getElementById('firstmoral').innerText = getRandommoralLE();
 	document.getElementById('secondmoral').innerText = getRandommoralLE();
-	document.getElementById('thirdmoral').innerText = getRandommoralLE();
 	document.getElementById('alignment').innerText = 'Lawful Evil';
 }
 
@@ -427,7 +424,6 @@ function getRandommoralNG() {
 function setmoralsNG() {
 	document.getElementById('firstmoral').innerText = getRandommoralNG();
 	document.getElementById('secondmoral').innerText = getRandommoralNG();
-	document.getElementById('thirdmoral').innerText = getRandommoralNG();
 	document.getElementById('alignment').innerText = 'Neutral Good';
 }
 
@@ -439,7 +435,6 @@ function getRandommoralNN() {
 function setmoralsNN() {
 	document.getElementById('firstmoral').innerText = getRandommoralNN();
 	document.getElementById('secondmoral').innerText = getRandommoralNN();
-	document.getElementById('thirdmoral').innerText = getRandommoralNN();
 	document.getElementById('alignment').innerText = 'True Neutral';
 }
 
@@ -451,7 +446,6 @@ function getRandommoralNE() {
 function setmoralsNE() {
 	document.getElementById('firstmoral').innerText = getRandommoralNE();
 	document.getElementById('secondmoral').innerText = getRandommoralNE();
-	document.getElementById('thirdmoral').innerText = getRandommoralNE();
 	document.getElementById('alignment').innerText = 'Neutral Evil';
 }
 
@@ -463,7 +457,6 @@ function getRandommoralCG() {
 function setmoralsCG() {
 	document.getElementById('firstmoral').innerText = getRandommoralCG();
 	document.getElementById('secondmoral').innerText = getRandommoralCG();
-	document.getElementById('thirdmoral').innerText = getRandommoralCG();
 	document.getElementById('alignment').innerText = 'Chaotic Good';
 }
 
@@ -475,7 +468,6 @@ function getRandommoralCN() {
 function setmoralsCN() {
 	document.getElementById('firstmoral').innerText = getRandommoralCN();
 	document.getElementById('secondmoral').innerText = getRandommoralCN();
-	document.getElementById('thirdmoral').innerText = getRandommoralCN();
 	document.getElementById('alignment').innerText = 'Chaotic Neutral';
 }
 
@@ -487,7 +479,6 @@ function getRandommoralCE() {
 function setmoralsCE() {
 	document.getElementById('firstmoral').innerText = getRandommoralCE();
 	document.getElementById('secondmoral').innerText = getRandommoralCE();
-	document.getElementById('thirdmoral').innerText = getRandommoralCE();
 	document.getElementById('alignment').innerText = 'Chaotic Evil';
 }
 
@@ -554,11 +545,6 @@ document.querySelector('.generate').addEventListener('click', function(){
   setRandomAdjs();
   setRandomAesth();
   setRandomJob();
-});
-
-// Changes gender
-document.querySelector('.generate').addEventListener('click', function(){
-  setPronoun();
 });
 
 document.querySelector('.generate').addEventListener('click', function(){
